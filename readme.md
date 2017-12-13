@@ -11,23 +11,23 @@ Most of the work was done by others in [2] and [1], but after discovering the mi
 A high resolution scan of the flex is available in this respository in `flex_scan.png`
 
 Pinout:
-| | | | | |
-|-|-|-|-|-|
-| GND     |  1 | \| | 28 | GND        |
-| MIC_VDD |  2 | \| | 27 | ROW7       |
-| MIC     |  3 | \| | 26 | LEDA 1 & 2 |
-| AGND    |  4 | \| | 25 | LEDK 1 & 4 |
-| GND     |  5 | \| | 24 | LEDA 3 & 4 |
-| ROW1    |  6 | \| | 23 | LEDK 2 & 3 |
-| COL1    |  7 | \| | 22 | ROW6       |
-| ROW2    |  8 | \| | 21 | ROW5       |
-| COL2    |  9 | \| | 20 | ROW4       |
-| COL3    | 10 | \| | 19 | COL5       |
-| GND     | 11 | \| | 18 | ROW3       |
-| GND     | 12 | \| | 17 | COL4       |
-| GND     | 13 | \| | 16 | GND        |
-| GND     | 14 | \| | 15 | GND        |
-| | | | | |
+```
+
+    GND   1 | 28  GND
+MIC_VDD   2 | 27  ROW7
+    MIC   3 | 26  LEDA 1 & 2
+   AGND   4 | 25  LEDK 1 & 4
+    GND   5 | 24  LEDA 3 & 4
+   ROW1   6 | 23  LEDK 2 & 3
+   COL1   7 | 22  ROW6
+   ROW2   8 | 21  ROW5
+   COL2   9 | 20  ROW4
+   COL3  10 | 19  COL5
+    GND  11 | 18  ROW3
+    GND  12 | 17  COL4
+    GND  13 | 16  GND
+    GND  14 | 15  GND
+```
 
 Since the numbering can be confusing (is it the plug or the receptacle?), see footprint below for clarification.
 
