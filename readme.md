@@ -2,7 +2,10 @@
 
 This document tries to summarize all the findings about the Blackberry Q10 keyboard, which seems interesting for DIY projects.
 The keyboard has a nice feel to it, is just the right size for typing and is fairly cheap (around 3 USD on Aliexpress).  
+It's available in black and white, there are versions with other letters like Arabic and Russian in addition to Latin. See [6] for details.  
 It also has a 4 LED backlight and a built-in MEMS microphone which can come in handy.
+
+![](./photo.jpg)
 
 ### Reversing on the pinout
 
@@ -79,3 +82,4 @@ Also thanks to ccadic for providing the 3d model of the keyboard.
 [3] https://forum.arduino.cc/index.php?topic=355709.0  
 [4] https://grabcad.com/library/blackberry-q10-keyboard-shape-1  
 [5] https://www.hirose.com/product/en/products/BM14/BM14B%280.8%29-24DS-0.4V%2853%29/  
+[6] https://help.blackberry.com/en/blackberry-q10/10.3.1/help/mar1396885531697.html  
