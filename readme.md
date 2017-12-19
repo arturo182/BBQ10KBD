@@ -58,17 +58,42 @@ I have a outline of the keyboard with the holes for tabs, but I haven't created 
 
 ### Column/Row to key matrix
 
+Copied from [3]
+
+Regular keys:
+
 |          | COL1 | COL2 | COL3 | COL4 | COL5 | 
 |----------|------|------|------|------|------| 
 | **ROW1** | Q    | E    | R    | U    | O    |
 | **ROW2** | W    | S    | G    | H    | L    |
 | **ROW3** | sym  | D    | T    | Y    | I    |
 | **ROW4** | A    | P    | R ⇧  | ↵    | ⌫   |
-| **ROW5** | alt  | Z    | V    | B    | $    |
-| **ROW6** | spac | X    | C    | N    | M    |
+| **ROW5** | alt  | X    | V    | B    | $    |
+| **ROW6** | spac | Z    | C    | N    | M    |
 | **ROW7** | 🎤   | L ⇧  | F    | J    | K    |
 
-Copied from [3].
+Alternative keys:
+
+|          | COL1 | COL2 | COL3 | COL4 | COL5 |
+|----------|------|------|------|------|------|
+| **ROW1** |   #  |   2  |   3  |   _  |   +  |
+| **ROW2** |   1  |   4  |   /  |   :  |   "  |
+| **ROW3** |      |   5  |   (  |   )  |   -  |
+| **ROW4** |   *  |   @  |      |      |      |
+| **ROW5** |      |   8  |   ?  |   !  |  🔊  |
+| **ROW6** |      |   7  |   9  |   ,  |   .  |
+| **ROW7** |   0  |      |   6  |   ;  |   '  |
+
+### Blackberry UX
+
+This part describes the way the Blackberry phone used the keyboard, might be a good reference and starting point for implementing a custom UX. Based on [7].
+
+- Pressing the space twice adds a period and capitalizes the next letter
+- Pressing and holding a letter key inserts capitalizes the letter
+- Alt + R ⇧ turns on Caps Lock, pressing either shift turns it off
+- Alt + L ⇧ turns on Num Lock, pressing either shift turns it off
+- Pressing Alt will make the next key pressed insert a symbol from the alternative keys matrix
+- Pressing Shift will make the next key pressed be capitalized
 
 ### Acknowledgements / Thanks
 
@@ -83,3 +108,4 @@ Also thanks to ccadic for providing the 3d model of the keyboard.
 [4] https://grabcad.com/library/blackberry-q10-keyboard-shape-1  
 [5] https://www.hirose.com/product/en/products/BM14/BM14B%280.8%29-24DS-0.4V%2853%29/  
 [6] https://help.blackberry.com/en/blackberry-q10/10.3.1/help/mar1396885531697.html  
+[7] https://help.blackberry.com/en/blackberry-q10/10.3.1/help/mba1343750483597.html   
